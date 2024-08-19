@@ -54,7 +54,6 @@ function handleSubmit(e) {
 
 function showLoader() {
   loader.style.display = 'inline-block';
-  setTimeout(hideLoader, 4000);
 }
 
 function hideLoader() {
