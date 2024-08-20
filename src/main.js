@@ -52,10 +52,10 @@ function handleSubmit(e) {
   form.reset();
 }
 
-function showLoader() {
-  loader.style.display = 'inline-block';
-}
+const showLoader = () => {
+  loader.classList.remove('is-hidden');
+};
 
-function hideLoader() {
-  loader.style.display = 'none';
-}
+const hideLoader = () => {
+  loader.classList.add('is-hidden');
+};

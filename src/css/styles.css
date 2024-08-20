@@ -139,7 +139,7 @@ input[name='query']:placeholder-shown {
   border: 3px dotted #6c4bf1;
   border-style: solid solid dotted dotted;
   border-radius: 50%;
-  display: none;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -163,7 +163,9 @@ input[name='query']:placeholder-shown {
   animation: rotationBack 1s linear infinite;
   transform-origin: center center;
 }
-
+.is-hidden {
+  display: none;
+}
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
